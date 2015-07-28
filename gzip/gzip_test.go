@@ -1,12 +1,13 @@
 package gzip
 
 import (
-	"compress/gzip"
 	"fmt"
 	"io/ioutil"
 	"net/http"
 	"net/http/httptest"
 	"testing"
+
+	"github.com/klauspost/compress/gzip"
 )
 
 const (
