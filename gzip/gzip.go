@@ -2,11 +2,11 @@
 package gzip
 
 import (
-	"compress/gzip"
 	"net/http"
 	"strings"
 
 	"github.com/codegangsta/negroni"
+	"github.com/klauspost/compress/gzip"
 )
 
 // These compression constants are copied from the compress/gzip package.
