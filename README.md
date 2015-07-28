@@ -6,6 +6,11 @@ Mostly a copy of the Martini gzip module with small changes to make it function
 under Negroni. Support for setting the compression level has also been added
 and tests have been written. Test coverage is 100% according to `go cover`.
 
+## Zack's Fork
+
+This is a fork of the original package. This fork includes a faster implementation
+of gzip
+
 ## Usage
 
 ~~~ go
@@ -16,7 +21,7 @@ import (
     "net/http"
 
     "github.com/codegangsta/negroni"
-    "github.com/phyber/negroni-gzip/gzip"
+    "github.com/zackkitzmiller/negroni-gzip/gzip"
 )
 
 func main() {
